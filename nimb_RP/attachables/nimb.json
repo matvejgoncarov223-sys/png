@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "nimb:nimb",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/nimb_texture"
+      },
+      "geometry": {
+        "default": "geometry.nimb"
+      },
+      "animations": {
+        "rotate": "animation.nimb.rotate"
+      },
+      "scripts": {
+        "animate": ["rotate"]
+      },
+      "render_controllers": ["controller.render.attachables.default"]
+    }
+  }
+}
